@@ -6,13 +6,16 @@ local function ToChest()
     for i=pos, 1, -1 do
         turtle.forward()
     pos = 1
-    turtle.turnLeft
+    turtle.turnLeft()
+end
 local function FaceChest()
     print("Facing chest...")
     turtle.turnRight()
+end
 local function FaceWheat()
     print("Facing wheat...")
     turtle.turnLeft()
+end
 while true do
     if data.state.age == 7 do
         print("Mining wheat...")
