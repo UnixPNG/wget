@@ -17,7 +17,7 @@ local function FaceWheat()
     turtle.turnLeft()
 end
 while true do
-    if data.state.age == 7 do
+    if data.state.age == 7 then
         print("Mining wheat...")
         turtle.dig()
         ToChest()
